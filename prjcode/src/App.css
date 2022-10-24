@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  --roxo-escuro: #280B66;
+  --roxo-claro: #8A5FE8;
+  --roxo-medio: #5919E3;
+  --roxo-concentrado: #4513B0;
+  --roxo-forte: #3B2963;
+  --roxo-clarinho: #c1afe9;
+  --branco: #fff;
+  --preto: #000;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1366' height='800' preserveAspectRatio='none' viewBox='0 0 1366 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1050%26quot%3b)' fill='none'%3e%3cpath d='M152.2 567.91 a251.65 251.65 0 1 0 503.3 0 a251.65 251.65 0 1 0 -503.3 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M465.07 189.08 a147.37 147.37 0 1 0 294.74 0 a147.37 147.37 0 1 0 -294.74 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M742.8 568.83 a137.23 137.23 0 1 0 274.46 0 a137.23 137.23 0 1 0 -274.46 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1014.64 496.48 a257.37 257.37 0 1 0 514.74 0 a257.37 257.37 0 1 0 -514.74 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M851.17 589.73 a253.42 253.42 0 1 0 506.84 0 a253.42 253.42 0 1 0 -506.84 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M989.62 569.26 a225.2 225.2 0 1 0 450.4 0 a225.2 225.2 0 1 0 -450.4 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M257.635%2c912.515C302.879%2c909.559%2c331.217%2c869.269%2c354.234%2c830.206C377.765%2c790.27%2c401.654%2c744.712%2c380.945%2c703.242C358.585%2c658.466%2c307.633%2c634.521%2c257.635%2c636.765C211.066%2c638.855%2c175.617%2c673.255%2c152.113%2c713.512C128.358%2c754.198%2c114.31%2c802.817%2c136.381%2c844.44C159.654%2c888.331%2c208.061%2c915.754%2c257.635%2c912.515' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M789.53 181.28 a264.29 264.29 0 1 0 528.58 0 a264.29 264.29 0 1 0 -528.58 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1068.13 737.52 a213.08 213.08 0 1 0 426.16 0 a213.08 213.08 0 1 0 -426.16 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-13.27 38.26 a143.58 143.58 0 1 0 287.16 0 a143.58 143.58 0 1 0 -287.16 0z' fill='rgba(142%2c 101%2c 232%2c 0.45)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1050'%3e%3crect width='1366' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.container .conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(var(--roxo-clarinho), var(--branco));
+  
+}
+
+.container h1 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--preto);
+  margin-bottom: 15px;
+}
+
+.container h1 span {
+  color: var(--roxo-escuro);
+}
+
+
+.input {
+  border-radius: 7px;
+  border: 2px solid var(--roxo-clarinho);
+  padding-left: 5px;
+  height: 35px;
+  text-align: center;
+  /* Ele vai pegar 100% de no maximo 300px */
+  max-width: 300px;
+  width: 100%;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.qrcode {
+  margin-bottom: 10px;
+}
+
+input::placeholder {
+  color: var(--roxo-escuro);
+  font-weight: 500;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container button {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid var(--roxo-concentrado);
+  background: var(--branco);
+  font-weight: 500;
+}
+
+.container button:hover {
+  background: var(--roxo-escuro);
+  transition: .9s all;
+  color: var(--branco);
+}
